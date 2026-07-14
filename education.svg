@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="236" viewBox="0 0 1200 236">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="256" viewBox="0 0 1200 256">
 <defs>
   <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
     <stop offset="0%" stop-color="#7C3AED"/>
@@ -13,15 +13,17 @@
     <rect width="4" height="1" fill="#7DD3FC" opacity="0.05"/>
   </pattern>
   <style>
-    text { font-family: 'Courier New', Consolas, monospace; font-size: 13px; white-space: pre; }
-    .term-label { font-family: 'Courier New', Consolas, monospace; font-size: 11px; fill: #64748B; letter-spacing: 0.5px; }
-    .tag { font-family: 'Courier New', Consolas, monospace; font-size: 9px; fill: #38BDF8; letter-spacing: 2px; opacity: 0.85; }
+    /* Font general mărit de la 13px la 15px */
+    text { font-family: 'Courier New', Consolas, monospace; font-size: 15px; white-space: pre; }
+    /* Etichete UI mărite */
+    .term-label { font-family: 'Courier New', Consolas, monospace; font-size: 12px; fill: #64748B; letter-spacing: 0.5px; }
+    .tag { font-family: 'Courier New', Consolas, monospace; font-size: 10px; fill: #38BDF8; letter-spacing: 2px; opacity: 0.85; }
   </style>
 </defs>
 
-<rect width="1200" height="236" rx="16" fill="url(#bgGlow)"/>
-<rect width="1200" height="236" rx="16" fill="url(#scanlines)"/>
-<rect x="2" y="2" width="1196" height="232" rx="15" fill="none" stroke="url(#borderGrad)" stroke-width="1.6" opacity="0.85"/>
+<rect width="1200" height="256" rx="16" fill="url(#bgGlow)"/>
+<rect width="1200" height="256" rx="16" fill="url(#scanlines)"/>
+<rect x="2" y="2" width="1196" height="252" rx="15" fill="none" stroke="url(#borderGrad)" stroke-width="1.6" opacity="0.85"/>
 
 <g>
   <rect x="2" y="2" width="1196" height="36" rx="15" fill="#0B1120" fill-opacity="0.85"/>
@@ -34,10 +36,10 @@
   <text x="1136" y="23" class="tag">EDUCATION.SYS</text>
 </g>
 
-<text x="54" y="66.0"><tspan fill="#10B981" font-weight="bold">- EDUCATION</tspan><tspan fill="#475569"> -———————————————————————————————————————————————————————————————————————————————————-</tspan></text>
-<text x="54" y="100.1"><tspan fill="#475569">. </tspan><tspan fill="#22D3EE" font-weight="bold">School</tspan><tspan fill="#475569">: </tspan><tspan fill="#E5E7EB">Faculty of Automatic Control and Computer Science, UNSTPB</tspan></text>
-<text x="54" y="122.1"><tspan fill="#475569">. </tspan><tspan fill="#22D3EE" font-weight="bold">Program</tspan><tspan fill="#475569">: </tspan><tspan fill="#E5E7EB">Software Engineering &amp; Computer Science</tspan></text>
-<text x="54" y="144.1"><tspan fill="#475569">. </tspan><tspan fill="#22D3EE" font-weight="bold">Period</tspan><tspan fill="#475569">: </tspan><tspan fill="#E5E7EB">Oct 2024 - Jun 2028</tspan></text>
-<text x="54" y="166.1"><tspan fill="#475569">. </tspan><tspan fill="#22D3EE" font-weight="bold">Societies</tspan><tspan fill="#475569">: </tspan><tspan fill="#E5E7EB">LSAC - Liga Studentilor din Facultatea de Automatica si Calculatoare</tspan></text>
-<text x="54" y="188.1"><tspan fill="#475569">. </tspan><tspan fill="#22D3EE" font-weight="bold">Coursework</tspan><tspan fill="#475569">: </tspan><tspan fill="#E5E7EB">Linux Kernel, Java Swing, +20 related skills</tspan></text>
+<text x="34" y="66.0"><tspan fill="#10B981" font-weight="bold">- EDUCATION</tspan><tspan fill="#475569"> -———————————————————————————————————————————————————————————————————————————————————-</tspan></text>
+<text x="34" y="104.8"><tspan fill="#475569">. </tspan><tspan fill="#22D3EE" font-weight="bold">School</tspan><tspan fill="#475569">: </tspan><tspan fill="#E5E7EB">Faculty of Automatic Control and Computer Science, UNSTPB</tspan></text>
+<text x="34" y="129.8"><tspan fill="#475569">. </tspan><tspan fill="#22D3EE" font-weight="bold">Program</tspan><tspan fill="#475569">: </tspan><tspan fill="#E5E7EB">Software Engineering &amp; Computer Science</tspan></text>
+<text x="34" y="154.8"><tspan fill="#475569">. </tspan><tspan fill="#22D3EE" font-weight="bold">Period</tspan><tspan fill="#475569">: </tspan><tspan fill="#E5E7EB">Oct 2024 - Jun 2028</tspan></text>
+<text x="34" y="179.8"><tspan fill="#475569">. </tspan><tspan fill="#22D3EE" font-weight="bold">Societies</tspan><tspan fill="#475569">: </tspan><tspan fill="#E5E7EB">LSAC - Liga Studentilor din Facultatea de Automatica si Calculatoare</tspan></text>
+<text x="34" y="204.8"><tspan fill="#475569">. </tspan><tspan fill="#22D3EE" font-weight="bold">Coursework</tspan><tspan fill="#475569">: </tspan><tspan fill="#E5E7EB">Linux Kernel, Java Swing, +20 related skills</tspan></text>
 </svg>
