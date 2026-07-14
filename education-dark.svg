@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="256" viewBox="0 0 1200 256">
+<defs>
+  <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#7C3AED"/>
+    <stop offset="50%" stop-color="#22D3EE"/>
+    <stop offset="100%" stop-color="#10B981"/>
+  </linearGradient>
+  <radialGradient id="bgGlow" cx="30%" cy="15%" r="90%">
+    <stop offset="0%" stop-color="#0B1120"/>
+    <stop offset="100%" stop-color="#050816"/>
+  </radialGradient>
+  <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+    <rect width="4" height="1" fill="#7DD3FC" opacity="0.05"/>
+  </pattern>
+  <style>
+    text { font-family: 'Courier New', Consolas, monospace; font-size: 15px; white-space: pre; }
+    .term-label { font-family: 'Courier New', Consolas, monospace; font-size: 12px; fill: #64748B; letter-spacing: 0.5px; }
+    .tag { font-family: 'Courier New', Consolas, monospace; font-size: 10px; fill: #38BDF8; letter-spacing: 2px; opacity: 0.85; }
+  </style>
+</defs>
+
+<rect width="1200" height="256" rx="16" fill="url(#bgGlow)"/>
+<rect width="1200" height="256" rx="16" fill="url(#scanlines)"/>
+<rect x="2" y="2" width="1196" height="252" rx="15" fill="none" stroke="url(#borderGrad)" stroke-width="1.6" opacity="0.85"/>
+
+<g>
+  <rect x="2" y="2" width="1196" height="36" rx="15" fill="#0B1120" fill-opacity="0.85"/>
+  <rect x="2" y="28" width="1196" height="8" fill="#0B1120" fill-opacity="0.85"/>
+  <circle cx="24" cy="19" r="5" fill="#EF4444"/>
+  <circle cx="42" cy="19" r="5" fill="#F59E0B"/>
+  <circle cx="60" cy="19" r="5" fill="#10B981"/>
+  <text x="600" y="24" text-anchor="middle" class="term-label">dariadraghici ~ % ./transcript --list</text>
+  <rect x="1116" y="12" width="14" height="14" rx="3" fill="none" stroke="#10B981" stroke-width="1.4"/>
+  <text x="1136" y="23" class="tag">EDUCATION.SYS</text>
+</g>
+
+<text x="34" y="66.0"><tspan fill="#10B981" font-weight="bold">- EDUCATION</tspan><tspan fill="#475569"> -———————————————————————————————————————————————————————————————————————————————————-</tspan></text>
+<text x="34" y="104.8"><tspan fill="#475569">. </tspan><tspan fill="#22D3EE" font-weight="bold">School</tspan><tspan fill="#475569">: </tspan><tspan fill="#E5E7EB">Faculty of Automatic Control and Computer Science, UNSTPB</tspan></text>
+<text x="34" y="129.8"><tspan fill="#475569">. </tspan><tspan fill="#22D3EE" font-weight="bold">Program</tspan><tspan fill="#475569">: </tspan><tspan fill="#E5E7EB">Software Engineering &amp; Computer Science</tspan></text>
+<text x="34" y="154.8"><tspan fill="#475569">. </tspan><tspan fill="#22D3EE" font-weight="bold">Period</tspan><tspan fill="#475569">: </tspan><tspan fill="#E5E7EB">Oct 2024 - Jun 2028</tspan></text>
+<text x="34" y="179.8"><tspan fill="#475569">. </tspan><tspan fill="#22D3EE" font-weight="bold">Societies</tspan><tspan fill="#475569">: </tspan><tspan fill="#E5E7EB">LSAC - Liga Studentilor din Facultatea de Automatica si Calculatoare</tspan></text>
+<text x="34" y="204.8"><tspan fill="#475569">. </tspan><tspan fill="#22D3EE" font-weight="bold">Coursework</tspan><tspan fill="#475569">: </tspan><tspan fill="#E5E7EB">Linux Kernel, Java Swing, +20 related skills</tspan></text>
+</svg>
