@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+
+# build scripts — not needed in the pushed repo
+build_profile.py
+build_report.py
+sync_scanners.py
+img_to_ascii.py
+
+# build inputs — keep these local, not pushed
+config.json
+photo.png
